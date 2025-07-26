@@ -12,7 +12,7 @@
     "wdth" 100;
 }
 
-.head{
+.head1{
     display: flex;
     align-items: center;
     justify-content: space-between;
