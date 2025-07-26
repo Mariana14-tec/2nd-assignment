@@ -109,6 +109,7 @@ button{
     font-size: 16px;
     font-weight: 600;
 }
+/* trust-section */
 .trust{
     display: flex;
     flex-wrap: wrap;
@@ -163,4 +164,54 @@ button{
 }
 .right-text li{
     padding-bottom: 20px;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* deals design */
+.deals-section{
+    text-align: center;
+
+}
+.container h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.container p{
+    font-size: 22px;
+    margin: 0 auto 120px auto;
+}
+.deals-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.deal-item-small-deal-bottom-small-deal{
+    margin-bottom: 300px;
+}
+
+.deal-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.deal-content h3{
+    font-size: 40px;
+    margin-top: 172px;
+}
+.deal-content a .zabo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.deal-content a{
+    color: #FFFFFF;
+    font-size: 16px;
 }
